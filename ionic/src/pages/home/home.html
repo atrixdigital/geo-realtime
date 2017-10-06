@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  Welcome to realtime geo location!
+  <h5> <u>Latitude:</u> {{(data | async)?.lat}}</h5>
+  <h5> <u>Latitude:</u> {{(data | async)?.lng}}</h5>
+</ion-content>
